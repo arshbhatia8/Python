@@ -3,19 +3,17 @@ print(sys.executable)
 print(sys.version)
 
 class Employee:
-
-
-def_init_(self, first, last):
-self.first =first
-self.las=last
+    def excel(self, first, last):
+        self.first =first
+        self.las=last
 
 @property
-def email(self)
-return'{}.{}@email.com'.format(self.first, self.last)
+    def email(self):
+        return'{}.{}@email.com'.format(self.first, self.last)
 
 @property
-def fullname(self)
-return'{} {}'.format(self.first, self.last)
+def fullname(self):
+    return'{} {}'.format(self.first, self.last)
 
 emp_1=Employee('John','Smith')
 

@@ -1,0 +1,1 @@
+print("Warning: Wear your mask")
